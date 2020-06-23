@@ -12,3 +12,14 @@ console.log(user.name);
 
 
 # 2
+var fruit = {
+    apple: 20,
+    pear: 20,
+    peach: 10,
+};
+
+var total = 0;
+for (var f in fruit) {
+    total += fruit[f];
+}
+console.log(total);
